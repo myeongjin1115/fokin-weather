@@ -57,7 +57,7 @@ export default function Weather({ temp, condition }) {
         <View style={styles.halfContainer}>
           <StatusBar barStyle="light-content"/>
         <MaterialCommunityIcons size={96} name={weatherOptions[condition].iconName} color="white"></MaterialCommunityIcons>
-      <Text style={styles.temp}>{temp}o</Text>
+      <Text style={styles.temp}>{temp}°</Text>
       </View>
       <View style={{...styles.halfContainer, ...styles.textcontainer}}>
         <Text style={styles.title}>{weatherOptions[condition].title}</Text>
